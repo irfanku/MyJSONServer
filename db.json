@@ -1,0 +1,91 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "PropertyName": "UTOPIA KATA",
+      "PropertyType": "Building",
+      "Chain": "UTOPIA",
+      "Description": "Test Desc",
+      "Phone": "123-456-7890",
+      "Email": "test@test.com",
+      "CCEmail": "test2@test.com",
+      "Website": "www.test.com",
+      "ContactFirstName": "John",
+      "ContactLastName": "A",
+      "Language": "Thai",
+      "TimeZone": "GMT+7",
+      "EarliestCheckinTime": "01:00 PM",
+      "LatestCheckoutTime": "12:00 PM",
+      "Brand": "UTOPIA",
+      "Division": "Division 1",
+      "Category": "5 Star",
+      "GenMgrName": "Kelly W",
+      "ResMgrName": "Jason A",
+      "FrontOffMgrName": "Chris W",
+      "DirSalesName": "Ryan M",
+      "Country": "Thailand",
+      "AddressLine1": "53 Brock St.",
+      "AddressLine2": "",
+      "City": "Bangkok",
+      "Province": "Central Thailand",
+      "Postal Code": "1A3 B4C",
+      "Features": "Pool, Gym",
+      "TotalRooms": "125",
+      "Booked": "65",
+      "Available": "45",
+      "Dirty": "15",
+      "AccomodationTypes": "JDD, JLD, J1S, JPD, J2S, TDD, TPD, TSD, TST, 2BV"
+    },
+    {
+      "id": 2,
+      "PropertyName": "UTOPIA NAIHARN",
+      "PropertyType": "Building",
+      "Chain": "SBR",
+      "Description": "Test Desc2",
+      "Phone": "987-654-3210",
+      "Email": "test3@test2.com",
+      "CCEmail": "test4@test2.com",
+      "Website": "www.test2.com",
+      "ContactFirstName": "Jason",
+      "ContactLastName": "B",
+      "Language": "Thai",
+      "TimeZone": "GMT+7",
+      "EarliestCheckinTime": "01:00 PM",
+      "LatestCheckoutTime": "12:00 PM",
+      "Brand": "SBR",
+      "Division": "Division 2",
+      "Category": "5 Star",
+      "GenMgrName": "Andrew B",
+      "ResMgrName": "John C",
+      "FrontOffMgrName": "Sergio A",
+      "DirSalesName": "David B",
+      "Country": "Thailand",
+      "AddressLine1": "54 Brock St.",
+      "AddressLine2": "",
+      "City": "Bangkok",
+      "Province": "Central Thailand",
+      "Postal Code": "1A3 B4C",
+      "Features": "Pool, Gym",
+      "TotalRooms": "120",
+      "Booked": "60",
+      "Available": "45",
+      "Dirty": "15",
+      "AccomodationTypes": "JDD, JLD, J1S, JPD, J2S, TDD, TPD, TSD, TST, 2BV"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
