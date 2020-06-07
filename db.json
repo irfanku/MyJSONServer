@@ -2,7 +2,7 @@
   "posts": [
     {
       "id": 1,
-      "PropertyName": "UTOPIA KATA",
+      "name": "UTOPIA KATA",
       "PropertyType": "Building",
       "Chain": "UTOPIA",
       "Description": "Test Desc",
@@ -38,7 +38,7 @@
     },
     {
       "id": 2,
-      "PropertyName": "UTOPIA NAIHARN",
+      "name": "UTOPIA NAIHARN",
       "PropertyType": "Building",
       "Chain": "SBR",
       "Description": "Test Desc2",
