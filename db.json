@@ -1,78 +1,678 @@
 {
   "posts": [
-    {
-      "id": 1,
-      "name": "UTOPIA KATA",
-      "PropertyType": "Building",
-      "Chain": "UTOPIA",
-      "Description": "Test Desc",
-      "Phone": "123-456-7890",
-      "Email": "test@test.com",
-      "CCEmail": "test2@test.com",
-      "Website": "www.test.com",
-      "ContactFirstName": "John",
-      "ContactLastName": "A",
-      "Language": "Thai",
-      "TimeZone": "GMT+7",
-      "EarliestCheckinTime": "01:00 PM",
-      "LatestCheckoutTime": "12:00 PM",
-      "Brand": "UTOPIA",
-      "Division": "Division 1",
-      "Category": "5 Star",
-      "GenMgrName": "Kelly W",
-      "ResMgrName": "Jason A",
-      "FrontOffMgrName": "Chris W",
-      "DirSalesName": "Ryan M",
-      "Country": "Thailand",
-      "AddressLine1": "53 Brock St.",
-      "AddressLine2": "",
-      "City": "Bangkok",
-      "Province": "Central Thailand",
-      "PostalCode": "1A3 B4C",
-      "Features": "Pool, Gym",
-      "TotalRooms": "125",
-      "Booked": "65",
-      "Available": "45",
-      "Dirty": "15",
-      "AccomodationTypes": "JDD, JLD, J1S, JPD, J2S, TDD, TPD, TSD, TST, 2BV"
-    },
-    {
-      "id": 2,
-      "name": "UTOPIA NAIHARN",
-      "PropertyType": "Building",
-      "Chain": "SBR",
-      "Description": "Test Desc2",
-      "Phone": "987-654-3210",
-      "Email": "test3@test2.com",
-      "CCEmail": "test4@test2.com",
-      "Website": "www.test2.com",
-      "ContactFirstName": "Jason",
-      "ContactLastName": "B",
-      "Language": "Thai",
-      "TimeZone": "GMT+7",
-      "EarliestCheckinTime": "01:00 PM",
-      "LatestCheckoutTime": "12:00 PM",
-      "Brand": "SBR",
-      "Division": "Division 2",
-      "Category": "5 Star",
-      "GenMgrName": "Andrew B",
-      "ResMgrName": "John C",
-      "FrontOffMgrName": "Sergio A",
-      "DirSalesName": "David B",
-      "Country": "Thailand",
-      "AddressLine1": "54 Brock St.",
-      "AddressLine2": "",
-      "City": "Bangkok",
-      "Province": "Central Thailand",
-      "PostalCode": "1A3 B4C",
-      "Features": "Pool, Gym",
-      "TotalRooms": "120",
-      "Booked": "60",
-      "Available": "45",
-      "Dirty": "15",
-      "AccomodationTypes": "JDD, JLD, J1S, JPD, J2S, TDD, TPD, TSD, TST, 2BV"
-    }
-  ],
+ {
+   "RoomType": "Tropical Suite",
+   "RatePlan": "EARLY BIRD 60 DAYS OFFER ROOM ONLY",
+   "Date": "6/8/2020",
+   "Rate": 1800
+ },
+ {
+   "RoomType": "Tropical Elegant Forest",
+   "RatePlan": "EARLY BIRD 60 DAYS OFFER ROOM ONLY",
+   "Date": "6/8/2020",
+   "Rate": 2100
+ },
+ {
+   "RoomType": "Tropical Deluxe Suite",
+   "RatePlan": "EARLY BIRD 60 DAYS OFFER ROOM ONLY",
+   "Date": "6/8/2020",
+   "Rate": 2500
+ },
+ {
+   "RoomType": "Tropical Plantation Suite",
+   "RatePlan": "EARLY BIRD 60 DAYS OFFER ROOM ONLY",
+   "Date": "6/8/2020",
+   "Rate": 2000
+ },
+ {
+   "RoomType": "Two-Bedroom Hideaway Pool Villa",
+   "RatePlan": "EARLY BIRD 60 DAYS OFFER ROOM ONLY",
+   "Date": "6/8/2020",
+   "Rate": 2300
+ },
+ {
+   "RoomType": "Work From Home Package in Tropical Suite",
+   "RatePlan": "EARLY BIRD 60 DAYS OFFER ROOM ONLY",
+   "Date": "6/8/2020",
+   "Rate": 2700
+ },
+ {
+   "RoomType": "Work From Home Package in Tropical Deluxe Suite",
+   "RatePlan": "EARLY BIRD 60 DAYS OFFER ROOM ONLY",
+   "Date": "6/8/2020",
+   "Rate": 2160
+ },
+ {
+   "RoomType": "Work From Home Package in Tropical Plantation Suite",
+   "RatePlan": "EARLY BIRD 60 DAYS OFFER ROOM ONLY",
+   "Date": "6/8/2020",
+   "Rate": 2100
+ },
+ {
+   "RoomType": "Tropical Suite",
+   "RatePlan": "EARLY BIRD 60 DAYS OFFER WITH BREAKFAST",
+   "Date": "6/9/2020",
+   "Rate": 2520
+ },
+ {
+   "RoomType": "Tropical Elegant Forest",
+   "RatePlan": "EARLY BIRD 60 DAYS OFFER WITH BREAKFAST",
+   "Date": "6/9/2020",
+   "Rate": 3000
+ },
+ {
+   "RoomType": "Tropical Deluxe Suite",
+   "RatePlan": "EARLY BIRD 60 DAYS OFFER WITH BREAKFAST",
+   "Date": "6/9/2020",
+   "Rate": 2400
+ },
+ {
+   "RoomType": "Tropical Plantation Suite",
+   "RatePlan": "EARLY BIRD 60 DAYS OFFER WITH BREAKFAST",
+   "Date": "6/9/2020",
+   "Rate": 2340
+ },
+ {
+   "RoomType": "Two-Bedroom Hideaway Pool Villa",
+   "RatePlan": "EARLY BIRD 60 DAYS OFFER WITH BREAKFAST",
+   "Date": "6/9/2020",
+   "Rate": 2760
+ },
+ {
+   "RoomType": "Work From Home Package in Tropical Suite",
+   "RatePlan": "EARLY BIRD 60 DAYS OFFER WITH BREAKFAST",
+   "Date": "6/9/2020",
+   "Rate": 3240
+ },
+ {
+   "RoomType": "Work From Home Package in Tropical Deluxe Suite",
+   "RatePlan": "EARLY BIRD 60 DAYS OFFER WITH BREAKFAST",
+   "Date": "6/9/2020",
+   "Rate": 4000
+ },
+ {
+   "RoomType": "Work From Home Package in Tropical Plantation Suite",
+   "RatePlan": "EARLY BIRD 60 DAYS OFFER WITH BREAKFAST",
+   "Date": "6/9/2020",
+   "Rate": 3600
+ },
+ {
+   "RoomType": "Tropical Suite",
+   "RatePlan": "LAST MINUTES OFFER ROOM ONLY",
+   "Date": "6/10/2020",
+   "Rate": 3900
+ },
+ {
+   "RoomType": "Tropical Elegant Forest",
+   "RatePlan": "LAST MINUTES OFFER ROOM ONLY",
+   "Date": "6/10/2020",
+   "Rate": 4600
+ },
+ {
+   "RoomType": "Tropical Deluxe Suite",
+   "RatePlan": "LAST MINUTES OFFER ROOM ONLY",
+   "Date": "6/10/2020",
+   "Rate": 5400
+ },
+ {
+   "RoomType": "Tropical Plantation Suite",
+   "RatePlan": "LAST MINUTES OFFER ROOM ONLY",
+   "Date": "6/10/2020",
+   "Rate": 4000
+ },
+ {
+   "RoomType": "Two-Bedroom Hideaway Pool Villa",
+   "RatePlan": "LAST MINUTES OFFER ROOM ONLY",
+   "Date": "6/10/2020",
+   "Rate": 3900
+ },
+ {
+   "RoomType": "Work From Home Package in Tropical Suite",
+   "RatePlan": "LAST MINUTES OFFER ROOM ONLY",
+   "Date": "6/10/2020",
+   "Rate": 4600
+ },
+ {
+   "RoomType": "Work From Home Package in Tropical Deluxe Suite",
+   "RatePlan": "LAST MINUTES OFFER ROOM ONLY",
+   "Date": "6/10/2020",
+   "Rate": 3600
+ },
+ {
+   "RoomType": "Work From Home Package in Tropical Plantation Suite",
+   "RatePlan": "LAST MINUTES OFFER ROOM ONLY",
+   "Date": "6/10/2020",
+   "Rate": 3500
+ },
+ {
+   "RoomType": "Tropical Suite",
+   "RatePlan": "LAST MINUTES OFFER WITH BREAKFAST",
+   "Date": "6/11/2020",
+   "Rate": 4200
+ },
+ {
+   "RoomType": "Tropical Elegant Forest",
+   "RatePlan": "LAST MINUTES OFFER WITH BREAKFAST",
+   "Date": "6/11/2020",
+   "Rate": 3500
+ },
+ {
+   "RoomType": "Tropical Deluxe Suite",
+   "RatePlan": "LAST MINUTES OFFER WITH BREAKFAST",
+   "Date": "6/11/2020",
+   "Rate": 4200
+ },
+ {
+   "RoomType": "Tropical Plantation Suite",
+   "RatePlan": "LAST MINUTES OFFER WITH BREAKFAST",
+   "Date": "6/11/2020",
+   "Rate": 2160
+ },
+ {
+   "RoomType": "Two-Bedroom Hideaway Pool Villa",
+   "RatePlan": "LAST MINUTES OFFER WITH BREAKFAST",
+   "Date": "6/11/2020",
+   "Rate": 1200
+ },
+ {
+   "RoomType": "Work From Home Package in Tropical Suite",
+   "RatePlan": "LAST MINUTES OFFER WITH BREAKFAST",
+   "Date": "6/11/2020",
+   "Rate": 1400
+ },
+ {
+   "RoomType": "Work From Home Package in Tropical Deluxe Suite",
+   "RatePlan": "LAST MINUTES OFFER WITH BREAKFAST",
+   "Date": "6/11/2020",
+   "Rate": 1700
+ },
+ {
+   "RoomType": "Work From Home Package in Tropical Plantation Suite",
+   "RatePlan": "LAST MINUTES OFFER WITH BREAKFAST",
+   "Date": "6/11/2020",
+   "Rate": 2000
+ },
+ {
+   "RoomType": "Tropical Suite",
+   "RatePlan": "BEST FLEXIBLE RATE WITH BREAKFAST",
+   "Date": "6/12/2020",
+   "Rate": 1300
+ },
+ {
+   "RoomType": "Tropical Elegant Forest",
+   "RatePlan": "BEST FLEXIBLE RATE WITH BREAKFAST",
+   "Date": "6/12/2020",
+   "Rate": 1600
+ },
+ {
+   "RoomType": "Tropical Deluxe Suite",
+   "RatePlan": "BEST FLEXIBLE RATE WITH BREAKFAST",
+   "Date": "6/12/2020",
+   "Rate": 1100
+ },
+ {
+   "RoomType": "Tropical Plantation Suite",
+   "RatePlan": "BEST FLEXIBLE RATE WITH BREAKFAST",
+   "Date": "6/12/2020",
+   "Rate": 1400
+ },
+ {
+   "RoomType": "Two-Bedroom Hideaway Pool Villa",
+   "RatePlan": "BEST FLEXIBLE RATE WITH BREAKFAST",
+   "Date": "6/12/2020",
+   "Rate": 1100
+ },
+ {
+   "RoomType": "Work From Home Package in Tropical Suite",
+   "RatePlan": "BEST FLEXIBLE RATE WITH BREAKFAST",
+   "Date": "6/12/2020",
+   "Rate": 1400
+ },
+ {
+   "RoomType": "Work From Home Package in Tropical Deluxe Suite",
+   "RatePlan": "BEST FLEXIBLE RATE WITH BREAKFAST",
+   "Date": "6/12/2020",
+   "Rate": 1300
+ },
+ {
+   "RoomType": "Work From Home Package in Tropical Plantation Suite",
+   "RatePlan": "BEST FLEXIBLE RATE WITH BREAKFAST",
+   "Date": "6/12/2020",
+   "Rate": 1600
+ },
+ {
+   "RoomType": "Tropical Suite",
+   "RatePlan": "BEST FLEXIBLE RATE ROOM ONLY",
+   "Date": "6/13/2020",
+   "Rate": 2520
+ },
+ {
+   "RoomType": "Tropical Elegant Forest",
+   "RatePlan": "BEST FLEXIBLE RATE ROOM ONLY",
+   "Date": "6/13/2020",
+   "Rate": 2940
+ },
+ {
+   "RoomType": "Tropical Deluxe Suite",
+   "RatePlan": "BEST FLEXIBLE RATE ROOM ONLY",
+   "Date": "6/13/2020",
+   "Rate": 2800
+ },
+ {
+   "RoomType": "Tropical Plantation Suite",
+   "RatePlan": "BEST FLEXIBLE RATE ROOM ONLY",
+   "Date": "6/13/2020",
+   "Rate": 3220
+ },
+ {
+   "RoomType": "Two-Bedroom Hideaway Pool Villa",
+   "RatePlan": "BEST FLEXIBLE RATE ROOM ONLY",
+   "Date": "6/13/2020",
+   "Rate": 832.26
+ },
+ {
+   "RoomType": "Work From Home Package in Tropical Suite",
+   "RatePlan": "BEST FLEXIBLE RATE ROOM ONLY",
+   "Date": "6/13/2020",
+   "Rate": 1016.13
+ },
+ {
+   "RoomType": "Work From Home Package in Tropical Deluxe Suite",
+   "RatePlan": "BEST FLEXIBLE RATE ROOM ONLY",
+   "Date": "6/13/2020",
+   "Rate": 1800
+ },
+ {
+   "RoomType": "Work From Home Package in Tropical Plantation Suite",
+   "RatePlan": "BEST FLEXIBLE RATE ROOM ONLY",
+   "Date": "6/13/2020",
+   "Rate": 2300
+ },
+ {
+   "RoomType": "Tropical Suite",
+   "RatePlan": "NON-REFUNDABLE RATE WITH BREAKFAST",
+   "Date": "6/14/2020",
+   "Rate": 2000
+ },
+ {
+   "RoomType": "Tropical Elegant Forest",
+   "RatePlan": "NON-REFUNDABLE RATE WITH BREAKFAST",
+   "Date": "6/14/2020",
+   "Rate": 2300
+ },
+ {
+   "RoomType": "Tropical Deluxe Suite",
+   "RatePlan": "NON-REFUNDABLE RATE WITH BREAKFAST",
+   "Date": "6/14/2020",
+   "Rate": 1800
+ },
+ {
+   "RoomType": "Tropical Plantation Suite",
+   "RatePlan": "NON-REFUNDABLE RATE WITH BREAKFAST",
+   "Date": "6/14/2020",
+   "Rate": 2100
+ },
+ {
+   "RoomType": "Two-Bedroom Hideaway Pool Villa",
+   "RatePlan": "NON-REFUNDABLE RATE WITH BREAKFAST",
+   "Date": "6/14/2020",
+   "Rate": 2500
+ },
+ {
+   "RoomType": "Work From Home Package in Tropical Suite",
+   "RatePlan": "NON-REFUNDABLE RATE WITH BREAKFAST",
+   "Date": "6/14/2020",
+   "Rate": 2000
+ },
+ {
+   "RoomType": "Work From Home Package in Tropical Deluxe Suite",
+   "RatePlan": "NON-REFUNDABLE RATE WITH BREAKFAST",
+   "Date": "6/14/2020",
+   "Rate": 2300
+ },
+ {
+   "RoomType": "Work From Home Package in Tropical Plantation Suite",
+   "RatePlan": "NON-REFUNDABLE RATE WITH BREAKFAST",
+   "Date": "6/14/2020",
+   "Rate": 2700
+ },
+ {
+   "RoomType": "Tropical Suite",
+   "RatePlan": "NON-REFUNDABLE ROOM ONLY",
+   "Date": "6/15/2020",
+   "Rate": 2160
+ },
+ {
+   "RoomType": "Tropical Elegant Forest",
+   "RatePlan": "NON-REFUNDABLE ROOM ONLY",
+   "Date": "6/15/2020",
+   "Rate": 2100
+ },
+ {
+   "RoomType": "Tropical Deluxe Suite",
+   "RatePlan": "NON-REFUNDABLE ROOM ONLY",
+   "Date": "6/15/2020",
+   "Rate": 2520
+ },
+ {
+   "RoomType": "Tropical Plantation Suite",
+   "RatePlan": "NON-REFUNDABLE ROOM ONLY",
+   "Date": "6/15/2020",
+   "Rate": 3000
+ },
+ {
+   "RoomType": "Two-Bedroom Hideaway Pool Villa",
+   "RatePlan": "NON-REFUNDABLE ROOM ONLY",
+   "Date": "6/15/2020",
+   "Rate": 2400
+ },
+ {
+   "RoomType": "Work From Home Package in Tropical Suite",
+   "RatePlan": "NON-REFUNDABLE ROOM ONLY",
+   "Date": "6/15/2020",
+   "Rate": 2340
+ },
+ {
+   "RoomType": "Work From Home Package in Tropical Deluxe Suite",
+   "RatePlan": "NON-REFUNDABLE ROOM ONLY",
+   "Date": "6/15/2020",
+   "Rate": 2760
+ },
+ {
+   "RoomType": "Work From Home Package in Tropical Plantation Suite",
+   "RatePlan": "NON-REFUNDABLE ROOM ONLY",
+   "Date": "6/15/2020",
+   "Rate": 3240
+ },
+ {
+   "RoomType": "Tropical Suite",
+   "RatePlan": "air bnb SPECIAL",
+   "Date": "6/16/2020",
+   "Rate": 4000
+ },
+ {
+   "RoomType": "Tropical Elegant Forest",
+   "RatePlan": "air bnb SPECIAL",
+   "Date": "6/16/2020",
+   "Rate": 3600
+ },
+ {
+   "RoomType": "Tropical Deluxe Suite",
+   "RatePlan": "air bnb SPECIAL",
+   "Date": "6/16/2020",
+   "Rate": 3900
+ },
+ {
+   "RoomType": "Tropical Plantation Suite",
+   "RatePlan": "air bnb SPECIAL",
+   "Date": "6/16/2020",
+   "Rate": 4600
+ },
+ {
+   "RoomType": "Two-Bedroom Hideaway Pool Villa",
+   "RatePlan": "air bnb SPECIAL",
+   "Date": "6/16/2020",
+   "Rate": 5400
+ },
+ {
+   "RoomType": "Work From Home Package in Tropical Suite",
+   "RatePlan": "air bnb SPECIAL",
+   "Date": "6/16/2020",
+   "Rate": 4000
+ },
+ {
+   "RoomType": "Work From Home Package in Tropical Deluxe Suite",
+   "RatePlan": "air bnb SPECIAL",
+   "Date": "6/16/2020",
+   "Rate": 3900
+ },
+ {
+   "RoomType": "Work From Home Package in Tropical Plantation Suite",
+   "RatePlan": "air bnb SPECIAL",
+   "Date": "6/16/2020",
+   "Rate": 4600
+ },
+ {
+   "RoomType": "Tropical Suite",
+   "RatePlan": "UTN FLASH DEAL WITH BREAKFAST",
+   "Date": "6/17/2020",
+   "Rate": 3600
+ },
+ {
+   "RoomType": "Tropical Elegant Forest",
+   "RatePlan": "UTN FLASH DEAL WITH BREAKFAST",
+   "Date": "6/17/2020",
+   "Rate": 3500
+ },
+ {
+   "RoomType": "Tropical Deluxe Suite",
+   "RatePlan": "UTN FLASH DEAL WITH BREAKFAST",
+   "Date": "6/17/2020",
+   "Rate": 4200
+ },
+ {
+   "RoomType": "Tropical Plantation Suite",
+   "RatePlan": "UTN FLASH DEAL WITH BREAKFAST",
+   "Date": "6/17/2020",
+   "Rate": 3500
+ },
+ {
+   "RoomType": "Two-Bedroom Hideaway Pool Villa",
+   "RatePlan": "UTN FLASH DEAL WITH BREAKFAST",
+   "Date": "6/17/2020",
+   "Rate": 4200
+ },
+ {
+   "RoomType": "Work From Home Package in Tropical Suite",
+   "RatePlan": "WORK FROM HOME PACKAGE",
+   "Date": "6/17/2020",
+   "Rate": 2160
+ },
+ {
+   "RoomType": "Work From Home Package in Tropical Deluxe Suite",
+   "RatePlan": "WORK FROM HOME PACKAGE",
+   "Date": "6/17/2020",
+   "Rate": 1200
+ },
+ {
+   "RoomType": "Work From Home Package in Tropical Plantation Suite",
+   "RatePlan": "WORK FROM HOME PACKAGE",
+   "Date": "6/17/2020",
+   "Rate": 1400
+ },
+ {
+   "RoomType": "Tropical Suite",
+   "RatePlan": "UTN FLASH DEAL ROOM ONLY",
+   "Date": "6/18/2020",
+   "Rate": 1700
+ },
+ {
+   "RoomType": "Tropical Elegant Forest",
+   "RatePlan": "UTN FLASH DEAL ROOM ONLY",
+   "Date": "6/18/2020",
+   "Rate": 2000
+ },
+ {
+   "RoomType": "Tropical Deluxe Suite",
+   "RatePlan": "UTN FLASH DEAL ROOM ONLY",
+   "Date": "6/18/2020",
+   "Rate": 1300
+ },
+ {
+   "RoomType": "Tropical Plantation Suite",
+   "RatePlan": "UTN FLASH DEAL ROOM ONLY",
+   "Date": "6/18/2020",
+   "Rate": 1600
+ },
+ {
+   "RoomType": "Two-Bedroom Hideaway Pool Villa",
+   "RatePlan": "UTN FLASH DEAL ROOM ONLY",
+   "Date": "6/18/2020",
+   "Rate": 1100
+ },
+ {
+   "RoomType": "Work From Home Package in Tropical Suite",
+   "RatePlan": "WORK FROM HOME PACKAGE",
+   "Date": "6/18/2020",
+   "Rate": 1400
+ },
+ {
+   "RoomType": "Work From Home Package in Tropical Deluxe Suite",
+   "RatePlan": "WORK FROM HOME PACKAGE",
+   "Date": "6/18/2020",
+   "Rate": 1100
+ },
+ {
+   "RoomType": "Work From Home Package in Tropical Plantation Suite",
+   "RatePlan": "WORK FROM HOME PACKAGE",
+   "Date": "6/18/2020",
+   "Rate": 1400
+ },
+ {
+   "RoomType": "Tropical Suite",
+   "RatePlan": "BOOK NOW STAY LATER WITH BREAKFAST",
+   "Date": "6/19/2020",
+   "Rate": 1300
+ },
+ {
+   "RoomType": "Tropical Elegant Forest",
+   "RatePlan": "BOOK NOW STAY LATER WITH BREAKFAST",
+   "Date": "6/19/2020",
+   "Rate": 1600
+ },
+ {
+   "RoomType": "Tropical Deluxe Suite",
+   "RatePlan": "BOOK NOW STAY LATER WITH BREAKFAST",
+   "Date": "6/19/2020",
+   "Rate": 2520
+ },
+ {
+   "RoomType": "Tropical Plantation Suite",
+   "RatePlan": "BOOK NOW STAY LATER WITH BREAKFAST",
+   "Date": "6/19/2020",
+   "Rate": 2940
+ },
+ {
+   "RoomType": "Two-Bedroom Hideaway Pool Villa",
+   "RatePlan": "BOOK NOW STAY LATER WITH BREAKFAST",
+   "Date": "6/19/2020",
+   "Rate": 2800
+ },
+ {
+   "RoomType": "Work From Home Package in Tropical Suite",
+   "RatePlan": "WORK FROM HOME PACKAGE",
+   "Date": "6/19/2020",
+   "Rate": 3220
+ },
+ {
+   "RoomType": "Work From Home Package in Tropical Deluxe Suite",
+   "RatePlan": "WORK FROM HOME PACKAGE",
+   "Date": "6/19/2020",
+   "Rate": 832.26
+ },
+ {
+   "RoomType": "Work From Home Package in Tropical Plantation Suite",
+   "RatePlan": "WORK FROM HOME PACKAGE",
+   "Date": "6/19/2020",
+   "Rate": 1016.13
+ },
+ {
+   "RoomType": "Tropical Suite",
+   "RatePlan": "BOOK NOW STAY LATER ROOM ONLY",
+   "Date": "6/20/2020",
+   "Rate": 1800
+ },
+ {
+   "RoomType": "Tropical Elegant Forest",
+   "RatePlan": "BOOK NOW STAY LATER ROOM ONLY",
+   "Date": "6/20/2020",
+   "Rate": 2300
+ },
+ {
+   "RoomType": "Tropical Deluxe Suite",
+   "RatePlan": "BOOK NOW STAY LATER ROOM ONLY",
+   "Date": "6/20/2020",
+   "Rate": 2000
+ },
+ {
+   "RoomType": "Tropical Plantation Suite",
+   "RatePlan": "BOOK NOW STAY LATER ROOM ONLY",
+   "Date": "6/20/2020",
+   "Rate": 2300
+ },
+ {
+   "RoomType": "Two-Bedroom Hideaway Pool Villa",
+   "RatePlan": "BOOK NOW STAY LATER ROOM ONLY",
+   "Date": "6/20/2020",
+   "Rate": 1800
+ },
+ {
+   "RoomType": "Work From Home Package in Tropical Suite",
+   "RatePlan": "WORK FROM HOME PACKAGE",
+   "Date": "6/20/2020",
+   "Rate": 2100
+ },
+ {
+   "RoomType": "Work From Home Package in Tropical Deluxe Suite",
+   "RatePlan": "WORK FROM HOME PACKAGE",
+   "Date": "6/20/2020",
+   "Rate": 2500
+ },
+ {
+   "RoomType": "Work From Home Package in Tropical Plantation Suite",
+   "RatePlan": "WORK FROM HOME PACKAGE",
+   "Date": "6/20/2020",
+   "Rate": 2000
+ },
+ {
+   "RoomType": "Tropical Suite",
+   "RatePlan": "Thai Residence Rate with Breakfast",
+   "Date": "6/21/2020",
+   "Rate": 2300
+ },
+ {
+   "RoomType": "Tropical Elegant Forest",
+   "RatePlan": "Thai Residence Rate with Breakfast",
+   "Date": "6/21/2020",
+   "Rate": 2700
+ },
+ {
+   "RoomType": "Tropical Deluxe Suite",
+   "RatePlan": "Thai Residence Rate with Breakfast",
+   "Date": "6/21/2020",
+   "Rate": 2160
+ },
+ {
+   "RoomType": "Tropical Plantation Suite",
+   "RatePlan": "Thai Residence Rate with Breakfast",
+   "Date": "6/21/2020",
+   "Rate": 2100
+ },
+ {
+   "RoomType": "Two-Bedroom Hideaway Pool Villa",
+   "RatePlan": "Thai Residence Rate with Breakfast",
+   "Date": "6/21/2020",
+   "Rate": 2520
+ },
+ {
+   "RoomType": "Work From Home Package in Tropical Suite",
+   "RatePlan": "WORK FROM HOME PACKAGE",
+   "Date": "6/21/2020",
+   "Rate": 3000
+ },
+ {
+   "RoomType": "Work From Home Package in Tropical Deluxe Suite",
+   "RatePlan": "WORK FROM HOME PACKAGE",
+   "Date": "6/21/2020",
+   "Rate": 2400
+ },
+ {
+   "RoomType": "Work From Home Package in Tropical Plantation Suite",
+   "RatePlan": "WORK FROM HOME PACKAGE",
+   "Date": "6/21/2020",
+   "Rate": 2340
+ }
+],
   "comments": [
     {
       "id": 1,
